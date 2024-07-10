@@ -1,0 +1,84 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #003366;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #003366;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffcc00;
+}
+
+.top-bar {
+  background-color: #003366;
+}
+.top-bar .menu li a {
+  color: #ffffff;
+}
+.top-bar .menu li a:hover {
+  color: #ffcc00;
+}
+.top-bar .menu li.menu-text {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.callout.large {
+  background-color: #003366;
+  color: #ffffff;
+}
+.callout.large .button.large {
+  background-color: #ffcc00;
+  color: #003366;
+}
+.callout.large .button.large:hover {
+  background-color: #cca300;
+}
+.callout.large .button.large.hollow {
+  background-color: transparent;
+  border: 2px solid #ffcc00;
+  color: #ffcc00;
+}
+.callout.large .button.large.hollow:hover {
+  background-color: #ffcc00;
+  color: #003366;
+}
+
+.thumbnail {
+  border: 3px solid #003366;
+}
+
+h2, h3 {
+  border-bottom: 2px solid #ffcc00;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.menu {
+  justify-content: center;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu li a {
+  color: #003366;
+}
+.menu li a:hover {
+  color: #ffcc00;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+.header {
+  background-color: $primary-color;
+  color: #fff;
+
+  .top-bar {
+    background: transparent;
+    border-bottom: none;
+  }
+
+  .menu {
+    &.top-bar-left {
+      li {
+        a {
+          color: #fff;
+
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+
+    &.top-bar-right {
+      li {
+        a {
+          color: #fff;
+
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.main-content {
+  padding: 20px;
+
+  .about-us,
+  .news,
+  .events {
+    margin-bottom: 40px;
+
+    h2 {
+      font-size: 2rem;
+      color: $primary-color;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  }
+}
