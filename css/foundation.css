@@ -2894,12 +2894,17 @@ h6,
 pre,
 form,
 p,
-blockquote,
-th,
-td {
+blockquote
+ {
   margin: 0;
   padding: 0;
 }
+
+th{
+  background-color:  #630a0a;
+  border-color: #630a0a;
+  margin-left: -10px;
+  }
 
 p {
   margin-bottom: 1rem;
@@ -6892,9 +6897,24 @@ a.thumbnail image {
   line-height: 1.6;
   text-rendering: optimizeLegibility;
 }
+.tabla{
+  border-color:  #630a0a;
+  background-color:  #630a0a;
+  margin-left: -1px;
+  margin-bottom: -3px;
+  margin-top: -2px;
+  color: white;
+
+}
+.tr{
+  background-color: #630a0a;
+  border: #630a0a;
+}
 .button.large2 {
   font-size: 0.65rem;
   margin-left: 0;
+  background-color: #3b3b3b00;
+  border-color: white;
 }
 .top-bar2, .top-bar2 li {
   color: white;
