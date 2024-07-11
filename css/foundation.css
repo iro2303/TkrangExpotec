@@ -27,6 +27,39 @@ h1 {
   margin: 0.67em 0;
 }
 
+.dropdownP {
+  position: relative;
+  margin-top: -40px;
+  margin-left: -700px;
+}
+
+.dropdown-menuP {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #6d0f0f;
+  border: 1px solid #6d0f0f;
+  border-radius: 5px;
+  z-index: 1;
+  
+}
+
+.dropdown-itemP {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.dropdown-itemP:hover {
+  background-color:#6d0f0f;
+}
+
+.profile:hover .dropdown-menuP {
+  display: block;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -4490,6 +4523,46 @@ select:not([multiple]) {
   margin: 0;
 
 }
+
+.menuP {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.menuP-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menuP-item:hover {
+  background-color: #701616;
+  border-radius: 5px;
+}
+
+.menuP-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menuP-icon {
+  font-size: 24px;
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 [data-whatinput=mouse] .menu li {
   outline: 0;
 }
