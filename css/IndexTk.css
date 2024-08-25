@@ -40,6 +40,7 @@ a {
 .logo img {
   max-height: 50px;
   width: auto;
+  display: flex;
 }
 
 .login-button .button.large2 {
@@ -75,6 +76,7 @@ a {
   font-size: 24px;
   font-weight: bold;
   list-style: none;
+  margin-left: -40%;
 }
 
 .top-bar-right {
@@ -83,10 +85,10 @@ a {
 }
 
 .menu-icon {
-  display: none; /* Se mostrará en dispositivos móviles */
+  display: none; 
   background: none;
   border: none;
-  color: rgba(0, 0, 0, 0.76);
+  color: rgb(0, 68, 255);
   font-size: 24px;
   cursor: pointer;
 }
@@ -142,7 +144,24 @@ a {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .header-top {
+    display: flex;
+    padding: 10px;
+  }
+  .header-top-left {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: flex-start;
+  }
+  .header-top-right {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: flex-end;
+  }
+
   .menu-icon {
       display: block;
   }
@@ -351,6 +370,7 @@ a {
 /* Mostrar menú cuando está activado */
 #main-menu.active {
   display: flex;
+  
 }
 
 /* Ajustes del dropdown para pantallas pequeñas */
