@@ -1,109 +1,103 @@
-<!doctype html>
-<html class="no-js" lang="en">
+
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Foundation | Welcome</title> <!-- Titulo de la pagina -->
-    <link rel="icon" href="img/TK.icon.webp" type="image/x-icon">
-    <link rel="stylesheet" href="css/foundation.css"> <!--Fuente del css -->
+    <link rel="icon" href="img/Logo.jpg " type="image/x-icon">
+    <link rel="stylesheet" href="css/IndexTk.css"> <!--Fuente del css -->
   </head>
+
   <body>
     <!-- Apartado de registro -->
     
-     <table class="tabla">
-        <tr>
-            <th>
-                <div class="top-bar2-left">
-                  <p class="clasep2">tkrhang@gmail.com | 1190-7828</p>   <!-- Barra de inicio -->   
-                </div>       
-            </th>
-            
-            <th>
-              <div class="top-bar2-right">
-                <div class="row column text-center">
-                  <a href="login.html" class="button large2">Login</a>    
-                </div>
-              </div>
-            </th>
-        </tr>
-      </table>
-    
-    <!-- Fin de apartado de registro -->
-
-    <!-- Barra de inicio -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">TKrhang</li>   <!-- Barra de inicio -->
-        </ul>
-      </div>
-
-      <div class="top-bar-right">
-        <ul class="center-top-bar">
-          <ul class="menu">
-            <li><a href="IndexTK.html">Inicio</a></li>
-            <!-- Separacion -->
-            <li class="nav-item dropdown">
-              <a href="ecommerce.html" class="dropbtn">Nosotros</a> <!-- Apartado de "Nosotros" Con opciones-->
-              <div class="dropdown-content">
-                  <a href="#">Atletas Nacionales</a>
-                  <a href="#">Salón de la fama</a>
-                  <a href="#">Historia</a>
-                  <a href="#">Misión, Visión y Valores</a>
-                  <a href="#">Licitaciones</a>
-                  <a href="#">Academias Afiliadas</a>
-                  <a href="#">Donaciones</a>
-              </div>
-          </li>
-          <!-- Separacion -->
-            <li class="nav-item dropdown">
-              <a href="#" class="dropbtn">Comisiones</a>
-              <div class="dropdown-content">
-                <a href="#">Grado</a>
-                <a href="#">Mujer</a>
-                <a href="#">Taekwondo</a>
-                <a href="#">Responsabilidad Social</a>
-                <a href="#">Selecciones</a>
-                <a href="#">Atletas</a>
-                <a href="#">Arbitros</a>
-              </div>
-          </li>
-          <!-- Separacion -->
-          <li class="nav-item dropdown">
-            <a href="#" class="dropbtn">Documentos</a>
-            <div class="dropdown-content">
-              <a href="#">Asambleas</a>
-              <a href="#">Certificados Kukkiwon</a>
-              <a href="#">Financieros</a>
-              <a href="#">Junta Directiva</a>
-              <a href="#">Ranking</a>
-              <a href="#">Estatus, Reglamentos y Directrises</a>
-              <a href="#">Informacion General</a>
-            </div>
-        </li>
-          <!-- Separacion -->
-            <li><a href="#">Eventos</a></li>
-            <li><a href="blog-simple.html">Competitivo</a></li>
-            <li><a href="#">Blog</a></li>
+   <!-- Contenedor principal del header -->
+  <div class="header-container">
+    <!-- Logo y Login -->
+        <div class="header-top">
+              <div class="logo">
+                  <img src="img/Logo.jpg" alt="Logo">
+                  
+             </div>
+            <ul class="menu">
+              <li class="menu-text">TKrhang</li> <!-- Nombre del sitio -->
+           
           </ul>
-        </ul>
-      </div>
-    </div>
-    <!-- End Top Bar -->
 
+
+
+          <nav class="top-bar">
+            <button class="menu-icon" onclick="toggleMenu()">☰</button>
+            <ul class="center-top-bar menu" id="main-menu">
+              <li><a href="IndexTK.html">Inicio</a></li>
+              <!-- Dropdown "Nosotros" -->
+              <li class="nav-item dropdown">
+                  <a href="ecommerce.html" class="dropbtn">Nosotros</a>
+                  <div class="dropdown-content">
+                      <a href="#">Atletas Nacionales</a>
+                      <a href="#">Salón de la fama</a>
+                      <a href="#">Historia</a>
+                      <a href="#">Misión, Visión y Valores</a>
+                      <a href="#">Licitaciones</a>
+                      <a href="#">Academias Afiliadas</a>
+                      <a href="#">Donaciones</a>
+                  </div>
+              </li>
+              <!-- Dropdown "Comisiones" -->
+              <li class="nav-item dropdown">
+                  <a href="#" class="dropbtn">Comisiones</a>
+                  <div class="dropdown-content">
+                      <a href="#">Grado</a>
+                      <a href="#">Mujer</a>
+                      <a href="#">Taekwondo</a>
+                      <a href="#">Responsabilidad Social</a>
+                      <a href="#">Selecciones</a>
+                      <a href="#">Atletas</a>
+                      <a href="#">Arbitros</a>
+                  </div>
+              </li>
+              <!-- Dropdown "Documentos" -->
+              <li class="nav-item dropdown">
+                  <a href="#" class="dropbtn">Documentos</a>
+                  <div class="dropdown-content">
+                      <a href="#">Asambleas</a>
+                      <a href="#">Certificados Kukkiwon</a>
+                      <a href="#">Financieros</a>
+                      <a href="#">Junta Directiva</a>
+                      <a href="#">Ranking</a>
+                      <a href="#">Estatus, Reglamentos y Directrices</a>
+                      <a href="#">Informacion General</a>
+                  </div>
+              </li>
+              <!-- Enlaces simples -->
+              <li><a href="#">Eventos</a></li>
+              <li><a href="blog-simple.html">Competitivo</a></li>
+              <li><a href="#">Blog</a></li>
+          </ul>
+          </nav>
+
+            <div class="login-button">
+                <a href="login.html" class="button large2">Login</a>
+                <a href="registro.html" class="button large2">Registro</a>
+            </div>
+        </div>
+    
+    <!-- Barra de navegación -->
+    
+</div>
 
     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
       <ul class="orbit-container">
-        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr"></span>&#9664;</button>
+        <button class="orbit-next" aria-label="next"><span class="show-for-sr"></span>&#9654;</button>
         <li class="orbit-slide">
-          <img src="https://delmatic.com/wp-content/uploads/2023/02/QPD-District-2000x750-1.jpg">
+          <img src="img/SG.jpg">
         </li>
         <li class="orbit-slide">
-          <img src="https://delmatic.com/wp-content/uploads/2023/02/QPD-District-2000x750-1.jpg">
+          <img src="img/sukuna.jpg">
         </li>
         <li class="orbit-slide">
-          <img src="https://delmatic.com/wp-content/uploads/2023/02/QPD-District-2000x750-1.jpg">
+          <img src="img/gojo2.jpg">
         </li>
       </ul>
     </div>
@@ -112,10 +106,8 @@
 
     <div class="callout large">
       <div class="row column text-center">
-        <p class="lead">Bienvenido a nuestro sitio.</p>
-
-        <a href="#" class="button large">Learn More</a>
-        <a href="#" class="button large hollow">Learn Less</a>
+        <p class="lead">Bienvenido a nuestro sitio aca podras ver diferente
+         informacion sobre este deporte tan maravilloso como es el Taekwondo.</p>
       </div>
     </div>
 
@@ -143,8 +135,8 @@
 
     <hr>
 
-    <div class="row column">
-      <ul class="vertical medium-horizontal menu expanded text-center">
+    <div class="Columna">
+      <ul class="Columna">
         <li><a href="#"><div class="stat">28</div><span>Websites</span></a></li>
         <li><a href="#"><div class="stat">43</div><span>Apps</span></a></li>
         <li><a href="#"><div class="stat">95</div><span>Ads</span></a></li>
@@ -163,33 +155,7 @@
       <div class="column">
         <img class="thumbnail" src="https://placehold.it/550x550">
       </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
-      </div>
+      
       <div class="column">
         <img class="thumbnail" src="https://placehold.it/550x550">
       </div>
@@ -200,19 +166,109 @@
 
     <hr>
 
-    <div class="row column">
-      <ul class="menu">
-        <li><a href="#">One</a></li>
-        <li><a href="#">Two</a></li>
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-      </ul>
-    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Enlaces rápidos -->
+        <div class="footer-section">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+    
+        <!-- Información de contacto -->
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+          <p>Teléfono: El de campos</p>
+          <p>Email: info@tkrhang.com</p>
+        </div>
+    
+        <!-- Redes Sociales -->
+        <div class="footer-section">
+          <h4>Síguenos</h4>
+          <div class="social-icons">
+            <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="img/youtube-icon.png" alt="YouTube"></a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Derechos Reservados -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 TKrhang. Todos los derechos reservados.</p>
+      </div>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+
+
+
+  
+    
+    
     <script>
-      $(document).foundation();
+      document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('.orbit-slide');
+    const prevButton = document.querySelector('.orbit-previous');
+    const nextButton = document.querySelector('.orbit-next');
+    let currentIndex = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.display = (i === index) ? 'block' : 'none';
+        });
+    }
+
+    function showNextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }
+
+    function showPrevSlide() {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    }
+
+    function startSlideShow() {
+        slideInterval = setInterval(showNextSlide, 3000); // Cambia cada 3 segundos
+    }
+
+    function stopSlideShow() {
+        clearInterval(slideInterval);
+    }
+
+    prevButton.addEventListener('click', function() {
+        stopSlideShow();
+        showPrevSlide();
+        startSlideShow();
+    });
+
+    nextButton.addEventListener('click', function() {
+        stopSlideShow();
+        showNextSlide();
+        startSlideShow();
+    });
+
+    // Iniciar el carrusel automáticamente
+    showSlide(currentIndex);
+    startSlideShow();
+});
+      function toggleMenu() {
+            var menu = document.getElementById("main-menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+
+    
     </script>
   </body>
 </html>

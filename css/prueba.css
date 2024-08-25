@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor general */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #d31414;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-login {
+    color: #333;
+    border: 1px solid #e2e2e2;
+    background-color: transparent;
+}
+
+.btn-register {
+    color: white;
+    background-color: #820A4E;
+    border: none;
+}
+
+/* MAIN SECTION */
+.main-content {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #333;
+    line-height: 1.2;
+}
+
+.main-title span {
+    color: transparent;
+    -webkit-text-stroke: 1px #820A4E;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #820A4E;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* FLOATING BUTTON */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.floating-button a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #820A4E;
+    padding: 10px;
+    display: block;
+}

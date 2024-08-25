@@ -2934,8 +2934,8 @@ blockquote
 }
 
 th{
-  background-color:  #630a0a;
-  border-color: #630a0a;
+  background-color:  #ffffff;
+  border-color: #ffffff;
   margin-left: -10px;
   }
 
@@ -3049,12 +3049,12 @@ h6, .h6 {
 }
 a {
   line-height: inherit;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover, a:focus {
-  color: #ffffff;
+  color: #000000;
   text-decoration:underline;
 }
 a img {
@@ -4856,7 +4856,7 @@ margin-right:0px;
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-bottom: 30px;
 }
 
@@ -6576,7 +6576,7 @@ input:checked + label > .switch-inactive {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 101%;
   margin-bottom: 1rem;
   border-radius: 0;
 }
@@ -6963,12 +6963,14 @@ a.thumbnail image {
   background-color: #630a0a;
   height: 51px;
 }
-.clasep2 {
+.clasep2 {   /*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
   margin-bottom: 1rem;
-  width: 250px;
+  
   font-size: inherit;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
+  margin-left: auto;
+  color: black;
 }
 .tabla{
   border-color:  #630a0a;
@@ -6983,11 +6985,18 @@ a.thumbnail image {
   background-color: #630a0a;
   border: #630a0a;
 }
-.button.large2 {
-  font-size: 0.65rem;
+.button.large2 {                                                                                
   margin-left: 0;
-  background-color: #3b3b3b00;
-  border-color: white;
+  background-color: #1c51e68e;
+  border: 2px solid black; 
+  padding: 9px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+  border-radius: 30px;
+}
+.button.large2:hover {
+  background-color: #1cade68e;
 }
 .top-bar2, .top-bar2 li {
   color: white;
@@ -7078,7 +7087,10 @@ a.thumbnail image {
 
 .top-bar,
 .top-bar ul {
-  background-color: #851212;
+  color: #0a0a0a;
+  background-color: #cccccc;
+  font-size: 16px 2px 4px;
+  font-family: sans-serif;
 }
 .top-bar input {
   max-width: 200px;
@@ -7178,6 +7190,32 @@ a.thumbnail image {
 .visible {
   visibility: visible;
 }
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .top-bar-right .menu {
+      display: none;
+      width: 100%;
+  }
+  .top-bar-right .menu li {
+      display: block;
+      text-align: left;
+  }
+  .top-bar-right .menu-icon {
+      display: block;
+  }
+}
+
+
+
+
+
+
+
 
 @media print, screen and (max-width: 39.99875em) {
   .hide-for-small-only {
