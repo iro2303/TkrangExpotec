@@ -404,18 +404,18 @@ a {
   border: none;
   color: #000000;
   cursor: pointer;
-  display: none; /* Ocultarlo por defecto */
+  display: none; 
 }
 
-/* Mostrar el botón en pantallas pequeñas */
+
 @media (max-width: 768px) {
   .menu-icon {
       display: block;
   }
   .center-top-bar.menu {
-      display: none; /* Ocultar menú en pantallas pequeñas por defecto */
+      display: none; 
       flex-direction: column;
-      background-color: #333; /* Fondo oscuro para el menú desplegable */
+      background-color: #333; 
       width: 100%;
   }
   .center-top-bar.menu li {
@@ -425,11 +425,11 @@ a {
   .center-top-bar.menu li a {
       padding: 15px;
       display: block;
-      color: white; /* Color del texto */
+      color: white; 
   }
 }
 
-/* Mostrar menú cuando está activado */
+
 #main-menu.active {
   display: flex;
   
@@ -492,52 +492,50 @@ a {
   }
 }
 .Columna {
-  display: flex; /* Utiliza flexbox para la disposición */
-  flex-direction: column; /* Orientación vertical */
-  
+  display: flex;
+  flex-direction: column; 
   padding: 20px;
-  background-color: #f5f5f5; /* Color de fondo */
-  border-radius: 8px; /* Bordes redondeados */
+  background-color: #f5f5f5; 
+  border-radius: 8px;
 
 }
 
-/* Estilo para la lista dentro de la columna */
 .Columna ul {
-  list-style: none; /* Sin viñetas */
-  padding: 0; /* Sin relleno */
-  margin: 0; /* Sin margen */
-  width: 100%; /* Toma el ancho completo del contenedor */
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  width: 100%; 
 }
 
-/* Estilo para los elementos de la lista */
+
 .Columna li {
-  margin: 10px 0; /* Margen entre los elementos */
+  margin: 10px 0; 
 }
 
-/* Estilo para los enlaces */
+
 .Columna li a {
-  display: flex; /* Flexbox para alinear número y texto */
-  justify-content: space-between; /* Espacio entre los elementos */
-  align-items: center; /* Alinea verticalmente los elementos */
-  text-decoration: none; /* Sin subrayado */
-  background-color: #fff; /* Fondo blanco para los elementos */
-  padding: 10px 15px; /* Relleno interior */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 2px 4px rgb(241, 0, 0); /* Sombra sutil */
-  transition: background-color 0.3s ease; /* Transición suave para hover */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  text-decoration: none;
+  background-color: #fff; 
+  padding: 10px 15px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgb(61, 61, 61);
+  transition: background-color 0.3s ease; 
 }
 
-/* Efecto hover para los enlaces */
+
 .Columna li a:hover {
-  background-color: #e0e0e0; /* Cambia el fondo al pasar el ratón */
+  background-color: #e0e0e0; 
 }
 
-/* Estilo para el número estadístico */
 
-/* Estilo para el texto de descripción */
+
+
 .Columna li span {
-  font-size: 16px; /* Tamaño de fuente */
-  color: #666; /* Color de texto gris */
+  font-size: 16px;
+  color: #666; 
 }
 .footer {
   background-color: #1a1a1a;
