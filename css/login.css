@@ -133,12 +133,14 @@ button:hover {
     font-size: 25px;
     margin: 10px;
 }
+
 .Regreso:hover{
     
     color: rgb(12, 143, 219);
     font-size: 25px;
     margin: 10px;
 }
+
 .Columna li span {
     font-size: 16px; /* Tamaño de fuente */
     color: #666; /* Color de texto gris */
