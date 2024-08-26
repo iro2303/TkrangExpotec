@@ -64,12 +64,6 @@ a {
   padding: 10px 20px;
 }
 
-.top-bar-left .menu {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 .menu-text {
   color: rgb(0, 141, 235);

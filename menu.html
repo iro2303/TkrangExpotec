@@ -3,52 +3,75 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taekwondo | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css">
+    <title>Foundation | Welcome</title> <!-- Titulo de la pagina -->
+    <link rel="icon" href="img/Logo.jpg " type="image/x-icon">
+    <link rel="stylesheet" href="css/menu.css">
   </head>
   <body>
-    <!-- Header -->
-    <header class="header">
+  
 
-      
-      <div class="top-bar">
-        
-        <div class="top-bar-left">
-          <ul class="menu">
+    <div class="header-container">
+      <!-- Logo y Login -->
+      <div class="header-top">
             
-            <li class="menu-text">TKrhang</li>
-            
-            <div class="menuP">
-              <a href="IndexTK.html" class="menuP-item">Inicio</a>
-              <a href="blog.html" class="menuP-item">Torneos</a>
-              <a href="blog-simple.html" class="menuP-item">Registrar Estudiantes</a>
-          </div>
-          </ul>
+            <div class="header-top-left">
+                <div class="logo">
+                    <img src="img/Logo.jpg" alt="Logo">                
+                </div>
+            </div> 
 
-        </div>
+            <div class="header-top-right">
+                <ul class="menu">
+                  <li class="menu-text" >TKrhang</li> <!-- Nombre del sitio -->           
+                </ul>
+            </div>
+  
+  
+            <nav class="top-bar">
+             
+              <ul class="center-top-bar menu" id="main-menu">
+                      <li><a href="IndexTK.html" class="dropbtn">Inicio</a></li>
+                      <!-- Dropdown "Nosotros" -->
+                      <li class="nav-item dropdown">
+                          <a href="ecommerce.html" class="dropbtn">Estudiantes</a>
+                          <div class="dropdown-content">
+                              <a href="#">Atletas Nacionales</a>
+                              <a href="#">Salón de la fama</a>
+                          </div>
+                      </li>
+                      <!-- Dropdown "Comisiones" -->
+                      <li class="nav-item dropdown">
+                        <i class="hgi-stroke hgi-user"></i><a href="#" class="dropbtn">Registro de estudiantes</a>
+                          <div class="dropdown-content">
+                              <a href="#">Grado</a>
+                              <a href="#">Mujer</a>
+                              <a href="#">Taekwondo</a>
+                              <a href="#">Responsabilidad Social</a>
+                              <a href="#">Selecciones</a>
+                              <a href="#">Atletas</a>
+                              <a href="#">Arbitros</a>
+                          </div>
+                      </li>
+
+                      <div class="profile">
+                        <li class="nav-item dropdown">
+                          <img src="img/perfil.jpg"  class="profile-img">                   
+                                <div class="dropdown-content">
+                                    <a href="perfil.html">Perfil</a>
+                                    <a href="configuracion.html">Configuración</a>
+                                    <a href="logout.html">Cerrar Sesión</a>
+                                </div>                                         
+                        </li>
+                      </div>
+              </ul>
+            </nav>
+    </div>
 
 
-        <div class="top-bar-right">
-          <div class="profile">
-            <li class="nav-item dropdown">
-              <img src="profile.jpg" alt="Foto de Perfil" class="profile-img">
-
-                  <div class="dropdownP">
-                    <div class="dropdown-menuP">
-                        <a href="perfil.html" class="dropdown-itemP">Perfil</a>
-                        <a href="configuracion.html" class="dropdown-itemP">Configuración</a>
-                        <a href="logout.html" class="dropdown-itemP">Cerrar Sesión</a>
-                    </div>
-                  </div>
-            </li>
-          </div>
-              
-        </div>
-
-
-      </div>
-    </header>
-
+                     
+                        
+                            
+                     
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-text">
@@ -114,16 +137,42 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="row">
-        <div class="medium-6 columns">
-          <p>&copy; 2024 TKD Association. Todos los derechos reservados.</p>
-        </div>
-        <div class="medium-6 columns">
-          <ul class="menu">
-            <li><a href="#">Política de Privacidad</a></li>
-            <li><a href="#">Términos de Servicio</a></li>
+      <div class="footer-container">
+        <!-- Enlaces rápidos -->
+        <div class="footer-section">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
         </div>
+    
+        <!-- Información de contacto -->
+        <div class="footer-section">
+          <h4>Contactos</h4>
+          <p>Sebastian Madrigal</p>
+          <p>Sebastian Campos</p>
+          <p>Bryan Cedeño</p>
+          <p>Isaac Saenz</p>
+        </div>
+    
+        <!-- Redes Sociales -->
+        <div class="footer-section">
+          <h4>Síguenos</h4>
+          <div class="social-icons">
+            <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="img/youtube-icon.png" alt="YouTube"></a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Derechos Reservados -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 TKrhang. Todos los derechos reservados.</p>
       </div>
     </footer>
 
